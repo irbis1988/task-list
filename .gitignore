@@ -1,0 +1,6 @@
+ign/
+nbproject/
+#protected/config.php
+public/upload/*.png
+public/upload/*.jpg
+public/upload/*.gif

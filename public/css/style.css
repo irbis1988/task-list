@@ -1,0 +1,50 @@
+.loader {
+	display: none;
+	border: 5px solid #eee;
+	border-radius: 50%;
+	border-top: 5px solid #286090;
+	border-bottom: 5px solid #286090;
+	width: 20px;
+	height: 20px;
+	-webkit-animation: spin 3s linear infinite;
+	animation: spin 3s linear infinite;
+}
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+.modal.show{
+	background-color:rgba(0,0,0,.2);
+}
+#pre-image{
+	max-width:320px;
+	max-height: 200px;
+}
+.status-0,.status-1{
+	background-image:url(../img/ic.png);
+	background-repeat: no-repeat;
+	width:30px;
+	height:25px;
+	display: block;
+	margin:0 auto;
+}
+.status-0{
+	background-position: bottom;
+}
+.status-1{
+	background-position: top;
+}
+input[type="checkbox"]{
+	width:25px;
+	height: 25px;
+}
+table .task-update-btn{
+	visibility: hidden;
+}
+table tr:hover .task-update-btn{
+	visibility: visible;
+}

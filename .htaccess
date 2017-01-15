@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/dayside(.*)$
+RewriteRule ^(.*)$ /public/$1
+AddDefaultCharset utf-8
